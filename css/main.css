@@ -70,6 +70,7 @@
    width: 100%;
    height: 100dvh;
    
+   
  }
 
  .section-img{
@@ -106,11 +107,183 @@
  .section-heading{
    font-size: 2.5rem;
    font-weight: 700;
+   color: #151414 ;
  }
 
  .fas, fa-check{
    color: #16D887;
    margin-right: 10px;
  }
+
+ /* My Plans */
+
+ .my-plans-container{
+  margin-top: 130px;
+  width: 100%;
+  height: 100dvh;
+ }
+
+ .my-plans-heading{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+ }
+
+ .my-plans-icons{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  width: 100%;
+ }
+
+
+
+ .my-plans-content{
+  font-family: 'Work sans';
+  font-size: 1.3rem;
+  font-weight: 700;
+ }
+
+ .my-plans-subheading{
+  font-size: 1.5rem;
+  font-family: 'Work sans';
+  font-weight: 700;
+ }
+
+
+ .positive-mindset-container{
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 130px;
+  margin-left: 230px;
+  margin-right: 230px;
+  height: 300px;
+  border-radius: 8px;
+  width: auto;
+  background-image: url(../images/gradient3.png), url(../images/watch.png);
+
+ 
+ }
+ 
+
+ .positive-mindset-subcontainer{
+ 
+  position: relative;
+  right: -5%;
+  top: 20%;
+ 
+ }
+
+ .positive-mindset-heading{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: start;
+  line-height: 2.8rem;
+  font-family: 'Work sans';
+ }
+
+ .Positive-btn{
+  background-color: white;
+  color: #F15B22;
+  padding: 12px 20px 12px 20px;
+  border: none;
+  border-radius: 5px;
+  
+
+ }
+
+
+
+ /* Footer */
+
+ .main-footer{
+  background-color:#151414;
+  width: 100%;
+  height: 577px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+ }
+ 
+
+
+ .footer-future{
+    padding-left: 230px;
+ }
+
+
+ .footer-img{
+  margin-left: 10px;
+ }
+
+ .footer-heading{
+  font-size: 2.8rem;
+  font-family: 'work sans';
+  font-weight: bold;
+  color: white;
+ }
+ 
+ .footer-email{
+  color: white;
+ }
+
+ .footer-phone{
+  color: white;
+ }
+
+
+ .footer-future,h2,p{
+  
+  margin-bottom: 15px;
+ }
+
+ .footer-paragraph{
+  width: 40%;
+  color: white;
+ }
+
+ 
+
+
+
+ .footer-btn{
+  display: block;
+  padding: 10px 18px 10px 18px;
+  background-color: white;
+  color: #F15B22;
+  font-weight: 600;
+  font-family: 'Work Sans';
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+ }
+
+
+ .footer-subscribe,h3,input,button{
+  margin-bottom: 15px;
+ }
+
+ .footer-subscribe,h3{
+  font-size: 1.5rem;
+  color: white;
+ }
+
+ #email{
+  border: solid 1px white;
+  padding: 14px 18px 14px 18px;
+  color: #F3F3F3;
+  background-color: #151414;
+  font-size: 18px;
+  font-family: 'Work sans';
+ }
+
+ .footer-subscribe{
+  padding-right: 225px;
+ }
+
 
  
